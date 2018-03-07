@@ -1,0 +1,9 @@
+[20-Apr-2016 09:55:18 Europe/Minsk] PHP Parse error:  syntax error, unexpected '[' in /home/dssteell/public_html/request/perenos/index.php on line 23
+[20-Apr-2016 11:24:19 Europe/Minsk] PHP Fatal error:  Class 'CIBlockProperty' not found in /home/dssteell/public_html/request/perenos/props.php on line 6
+[20-Apr-2016 11:24:45 Europe/Minsk] PHP Fatal error:  Class 'CModule' not found in /home/dssteell/public_html/request/perenos/props.php on line 3
+[20-Apr-2016 11:25:04 Europe/Minsk] PHP Fatal error:  Class 'Bitrix\Main\Loader' not found in /home/dssteell/public_html/request/perenos/props.php on line 3
+[20-Apr-2016 11:27:53 Europe/Minsk] PHP Parse error:  syntax error, unexpected end of file in /home/dssteell/public_html/request/perenos/props.php on line 33
+[20-Apr-2016 11:30:53 Europe/Minsk] PHP Fatal error:  Class 'CIBlockProperty' not found in /home/dssteell/public_html/request/perenos/props.php on line 31
+[20-Apr-2016 12:35:45 Europe/Minsk] PHP Fatal error:  Call to a member function GetID() on a non-object in /home/dssteell/public_html/request/perenos/index.php on line 81
+[20-Apr-2016 16:56:19 Europe/Minsk] PHP Fatal error:  Class 'Bitrix\Catalog\StockTable' not found in /home/dssteell/public_html/request/perenos/sklad.php on line 7
+[25-Apr-2016 15:19:47 Europe/Minsk] PHP Fatal error:  Class 'Bitrix\Iblock\ProductTable' not found in /home/dssteell/public_html/request/perenos/sklad.php on line 7

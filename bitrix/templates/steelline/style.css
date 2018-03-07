@@ -1,0 +1,23 @@
+.catalog .wrap .content .filt label input:checked+span::after{
+content:"✓";
+text-align: center;
+}
+.item .wrap .tech .right .tabs li.STORONA {
+    width: initial;    height: initial;
+}
+.item .wrap .tech .right .tabs li.STORONA img {
+    max-width: 100%;    max-height: 100%;
+}
+.item .wrap .tech .right .tabs li.STORONA p {
+    width: initial;    height: initial;
+}
+.item .wrap .tech .right .tabs li.STORONA span {
+    display:none;
+}
+.item .wrap .tech .right .tabs li.CHARAKTER_FURNISH_INSIDE {
+	float:right;
+}
+#supportTriggerMobile
+{
+display:none;
+}

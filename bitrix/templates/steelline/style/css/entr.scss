@@ -1,0 +1,737 @@
+.dp-popup {
+	width: 100%;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	display: none;
+	&__back {
+		height: 100%;
+		width: 100%;
+		background-color: rgba(0, 0, 0, 0.37);
+		cursor: pointer;
+		&:hover {
+			.dp-popup__close-line {
+				background-color: #f82d40;
+			}
+		}
+	}
+	&__video {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		background-color: #000;
+	}
+	&__close {
+		position: absolute;
+		cursor: pointer;
+		&-line {
+			height: 4px;
+			width: 44px;
+			background-color: #d8d8d8;
+			opacity: .8;
+			display: block;
+			position: absolute;
+			left: 0;
+			&:first-child {
+				transform: rotateZ(45deg);
+			}
+			&:last-child {
+				transform: rotateZ(-45deg);
+			}
+		}
+	}
+}
+
+.dp-video {
+	background-color: #000;
+	overflow: hidden;
+	position: relative;
+	&__start {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		z-index: 10;
+		overflow: hidden;
+		cursor: pointer;
+		&:hover {
+			.dp-video__start-svg {
+				path {
+					fill: #f82d40;
+				}
+			}
+		}
+		&-portret {
+			width: 100%;
+		}
+		&-svg {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+	}
+}
+
+.dp-entr-popup {
+	width: 900px;
+	height: 508px;
+	overflow: hidden;
+	&__close {
+		top: 50%;
+		left: 50%;
+		transform: translate(462px, -238px);
+	}
+}
+.dp-entr {
+	overflow-x: hidden;
+	position: relative;
+	svg {
+		path {
+			transition: fill .2s;
+		}
+	}
+	* {
+		box-sizing: border-box;
+	}
+	.wrapper {
+		width: 1280px;
+		margin: 0 auto;
+	}
+	.container {
+		width: 1140px;
+		margin: 0 auto;
+		position: relative;
+		display: flex;
+		&__main {
+			flex: 1 0;
+			padding-right: 40px;
+		}
+		&__fact {
+			flex: 0 0 268px;
+		}
+	}
+	.floating-start {
+		position: absolute;
+	}
+	.title {
+		font-size: 50px;
+		line-height: 52px;
+		font-family: 'museo500';
+		margin-bottom: 10px;
+	}
+	.title-1 {
+		font-size: 45px;
+		line-height: 54px;
+		font-family: 'museo500';
+	}
+	.title-2 {
+		font-size: 22px;
+		line-height: 26px;
+		margin-bottom: 3px;
+		font-family: 'museo700';
+		&-light {
+			font-size: 22px;
+			line-height: 26px;
+			margin-bottom: 3px;
+			font-family: 'museo500';
+		}
+	}
+	.title-number {
+		font-size: 80px;
+		font-family: 'museo500';
+		line-height: .9;
+	}
+	.desc-fact {
+		font-size: 15px;
+		line-height: 20px;
+		font-family: 'museo500';
+	}
+	.desc {
+		font-size: 22px;
+		line-height: 30px;
+		font-family: 'museo500';
+		display: block;
+		&:not(:last-child) {
+			margin-bottom: 20px;
+		}
+		&-light {
+			font-size: 22px;
+			line-height: 30px;
+			font-family: 'museo300';
+			display: block;
+			&:not(:last-child) {
+				margin-bottom: 20px;
+			}
+		}
+	}
+	.desc-1 {
+		font-size: 18px;
+		line-height: 24px;
+		font-family: 'museo300';
+		display: block;
+		&:not(:last-child) {
+			margin-bottom: 20px;
+		}
+	}
+	.head {
+		color: #fff;
+		position: relative;
+		padding-bottom: 78px;
+		margin-bottom: 70px;
+		height: 770px;
+		overflow: hidden;
+		background-image: radial-gradient(circle at 13% 28%, #363636, #212121 44%, #0b0b0b), radial-gradient(circle at 95% 13%, rgba(255, 255, 255, 0.13), rgba(255, 255, 255, 0.08) 57%, rgba(255, 255, 255, 0));
+		// overflow: hidden;
+		&__banner {
+			position: absolute;
+			top: 0;
+			right: -25px;
+			width: 404px;
+		}
+		&-video {
+			width: 202px;
+			height: 114px;
+			overflow: hidden;
+			position: relative;
+			cursor: pointer;
+			&:hover {
+				.head-video__svg {
+					path {
+						fill: #f82d40;
+					}	
+				}
+			}
+			&__wrap {
+				display: flex;
+				align-items: flex-end;
+			}
+			&__desc {
+				display: block;
+				font-family: 'museo300';
+				font-size: 15px;
+				line-height: 20px;
+				margin-left: 12px;
+			}
+			&__img {
+				width: 100%;
+				height: 100%;
+			}
+			&__svg {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+		}
+		.container {
+			align-items: flex-end;
+		}
+	}
+
+	.video-popup {
+		width: 900px;
+		height: 509px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	.page-title {
+		margin-top: 30px;
+		&__caption {
+			margin-bottom: 4px;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+			font-size: 22px;
+			line-height: 30px;
+			font-family: 'museo500';
+		}
+		&__text {
+			font-size: 70px;
+			line-height: 70px;
+			font-family: 'museo500';
+			margin-bottom: 20px;
+		}
+	}
+	.page-desc {
+		margin-bottom: 100px;
+	}
+
+	.compatibility {
+		color: #000;
+	}
+
+	.multlock {
+		.title {
+			margin: 0 auto 19px;
+		}
+		.container {
+			padding-bottom: 60px;
+			border-bottom: solid 1px rgba(#000, .15);
+		}
+	}
+	.region {
+		margin-top: 74px;
+	}
+
+	.methods-contr {
+		margin: 20px 0 109px;
+		.title {
+			width: 1140px;
+			margin: 0 auto 50px;
+		}
+		.desc {
+			font-size: 18px;
+			line-height: 22px;
+			&:not(:last-child) {
+				margin-bottom: 10px;
+			}
+		}
+		&__main {
+			&:first-child {
+				flex: 0 0 52%;
+			}
+			&:last-child {
+				flex: 0 0 48%;
+			}
+		}
+	}
+
+	.app {
+		display: flex;
+		.title-2 {
+			margin-bottom: 11px;
+		}
+		&__body {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			flex: 1 0;
+			padding-left: 30px;
+			padding-right: 20px;
+		}
+		&__desc {
+			margin-top: -5px;
+			&:last-child {
+				display: flex;
+				align-items: center;
+			}
+		}
+		&__svg {
+			flex: 0 0 57px;
+			&-desc {
+				margin-left: 10px;
+			}
+		}
+		&__img {
+			width: 304px;
+			flex: 0 0 auto;
+		}
+	}
+
+	.control {
+		display: flex;
+		&__wrap {
+			flex: 0 0 40%;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+	}
+
+	.wall-panel {
+		flex: 0 0 60%;
+		.title-2 {
+			margin-top: 12px;
+			margin-bottom: 0px;
+		}
+		&__img {
+			width: 192px;
+		}
+	}
+	
+	.mechanical-key {
+		.title-2 {
+			margin-top: 12px;
+			margin-bottom: 5px;
+		}
+		&__img {
+			width: 93px;
+		}
+	}
+	.remote {
+		&__img {
+			width: 113px;
+		}
+		.title-2 {
+			margin-bottom: 0px;
+			margin-top: 12px;
+		}
+	}
+
+	.care {
+		margin-bottom: 115px;
+		.container {
+			justify-content: space-between;
+		}
+		&__main {
+			border-top: solid 1px rgba(#000, .15);
+			flex: 0 0 400px;
+			padding-top: 20px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+		&__body {
+			margin-bottom: -8px;
+		}
+		&__video {
+			width: 701px;
+			height: 395px;
+			position: relative;
+			background-color: #000;
+			&-desc {
+				display: block;
+				position: absolute;
+				color: #fff;
+				top: 0;
+				left: 0;
+				font-size: 18px;
+				line-height: 25px;
+				font-family: 'museo500';
+				max-width: 100%;
+				padding: 20px 18px;
+			}
+		}
+	}
+
+	.safety {
+		color: #fff;
+		padding: 55px 0 105px;
+		margin-bottom: 87px;
+		background-image: radial-gradient(circle at 92% 9%, #393939, #000000), linear-gradient(205deg, rgba(61, 61, 61, 0.79), rgba(0, 0, 0, 0));
+		&__wrap {}
+		&__img {
+			width: 1162px;
+			margin-left: -14px;
+			position: relative;
+    	top: 10px;
+			&-wrap {
+				position: relative;
+			}
+		}
+		&__body {
+			width: 650px;
+			position: absolute;
+			top: 5px;
+			left: 0;
+		}
+		&__info {
+			width: 650px;
+			position: absolute;
+			bottom: -22px;
+			left: 0;
+		}
+	}
+	.cylinder {
+		margin-bottom: 85px;
+		&__body {
+			display: flex;
+			&-item {
+				flex: 0 0 50%;
+				&:not(:last-child) {
+					padding-right: 20px;
+				}
+			}
+		}
+		.title-2-light {
+			margin-bottom: 10px;
+		}
+	}
+	.options {
+		display: flex;
+		&__img {
+			flex: 0 0 50%;
+			width: 326px;
+			position: relative;
+			left: -25px;
+		}
+		&__body {
+			display: flex;
+			flex: 1 0;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+		svg {
+			display: block;
+			margin-bottom: 9px;
+		}
+	}
+	.closing {
+		margin-top: 20px;
+	}
+	.coding {
+		margin-bottom: 15px;
+		.title-2-light {
+			margin-bottom: 10px;
+		}
+	}
+
+	.install {
+		margin-bottom: 25px;
+		&-time {
+			margin-top: -6px;
+		}
+		&__video {
+			width: 946px;
+			flex: 0 0 946px;
+			overflow: hidden;
+			height: 533px;
+			&-wrap {
+				display: flex;
+				width: 100%;
+				margin-bottom: 30px;
+			}
+			&-desc {
+				padding-left: 20px;
+				flex: 1 0;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+				.desc-fact {
+					margin-bottom: -4px;
+				}
+			}
+		}
+		&__wrap {
+			display: flex;
+		}
+		&__gar {
+			padding-right: 40px;
+			flex: 1 0;
+		}
+		&__addr {
+			flex: 0 0 236px;
+			&-num {
+				margin-left: -14px;
+			}
+		}
+		&__body {
+			// margin-bottom: 40px;
+		}
+		&__main {
+			flex: 1 0;
+		}
+		&__img {
+			width: 516px;
+			&-wrap {
+				position: absolute;
+				bottom: 0px;
+			}
+			&-desc {
+				position: absolute;
+				width: 170px;
+				top: 16px;
+				left: 40px;
+			}
+		}
+		&__lock {
+			width: 277px;
+			flex: 0 0 277px;
+			margin-right: -120px;
+			margin-top: 30px;
+		}
+		.title-1 {
+			margin-bottom: 6px;
+		}
+		.title-number {
+			font-size: 70px;
+		}
+		.container {
+			&__main {
+				display: flex;
+			}
+			&__fact {
+				position: relative;
+				flex: 0 0 215px;
+				display: flex;
+				// align-items: flex-end;
+				margin-bottom: 10px;
+			}
+		}
+	}
+
+	.accessories {
+		color: #fff;
+		padding: 55px 0 285px;
+		background-image: radial-gradient(circle at 54% 48%, rgba(45, 45, 45, 0.5), rgba(27, 27, 27, 0.5)), radial-gradient(circle at 55% 43%, rgba(64, 64, 64, 0.79), rgba(19, 19, 19, 0)), linear-gradient(#0c0d11, #0c0d11);
+	}
+
+	.access {
+		margin-bottom: 120px;
+		&__head {
+			margin-bottom: 53px;
+		}
+		&__img {
+			width: 184px;
+			z-index: 10;
+			&-wrap {
+				position: relative;
+				height: 482px;
+			}
+		}
+		&-box {
+			&__body {
+				display: flex;
+				margin-top: 32px;
+			}
+			&__item {
+				&:not(:last-child) {
+					padding-right: 20px;
+				}
+				&:nth-child(1) {
+					flex: 0 0 250px;
+				}
+				&:nth-child(2) {
+					flex: 0 0 345px;
+				}
+				&:nth-child(3) {
+					flex: 1 0;
+				}
+			}
+			&__img {
+				width: 809px;
+			}
+			.container {
+				&__fact {
+					display: flex;
+					flex-direction: column;
+					justify-content: space-between;
+				}
+			}
+		}
+		.container {
+			&__main {
+				flex: 0 0 809px;
+				padding-right: 0;
+			}
+			&__fact {
+				flex: 0 0 290px;
+				margin-left: 42px;
+			}
+		}
+	}
+	.access-lock {
+		margin-bottom: 20px;
+	}
+	.access-temp {
+		.title-2-light {
+			margin-bottom: 3px;
+			margin-left: -14px;
+		}
+	}
+
+	.add-access {
+		.container {
+			&__main {
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+			}
+			&__fact {
+				flex: 0 0 305px;
+			}
+		}
+		&__wrap {
+			display: flex;
+			align-items: flex-end;
+			.add-access__item {
+				flex: 0 0 50%;
+				padding-right: 30px;
+			}
+		}
+	}
+	.add-access-remote {
+		&__img {
+			width: 105px;
+			margin-bottom: 25px;
+		}
+	}
+	.add-access-wall-panel {
+		&__img {
+			width: 162px;
+			margin-bottom: 25px;
+		}
+	}
+	.add-access-charging {
+		&__img {
+			width: 211px;
+			margin-bottom: 22px;
+			&-wrap {
+				position: relative;
+				display: inline-block;
+				text-align: center;
+			}
+			&-desc {
+				&-item {
+					position: absolute;
+					width: 100%;
+					&:first-child {
+						top: 37px;
+						.title-number {
+							font-size: 75px;
+						}
+					}
+					&:last-child {
+						bottom: 375px;
+					}
+				}
+			}
+		}
+	}
+
+
+	.dp-safery__form {
+		width: 100%;
+		margin-top: -170px;
+	}
+	.dp-safery__form .dp-dodings__form.form {
+		padding: 31px 98px 62px 73px;
+	}
+
+	.dp-zamki-see {
+		padding: 35px 98px 71px 73px;
+	}
+	.form-manager {
+		width: 235px;
+	}
+	.guarantee_manager {
+		right: 98px;
+	}
+	.dp-safery__form .dp-dodings__form.form .textblock {
+		margin-bottom: 30px;
+	}
+	.dp-zamki-form__wrap .dp-dodings__form.form .metering_application_text {
+		margin-bottom: 35px;
+	}
+	.dp-zamki-form__wrap .dp-dodings__form.form .metering_manager_text {
+		top: 17px;
+	}
+	.dp-safery__form .dp-dodings__form.form .guarantee_letter_field_detail {
+		margin-left: 115px;
+		&:nth-of-type(1) {
+			margin-left: 115px;
+		}
+	}
+	.dp-safery__form .dp-dodings__form.form .send_button {
+		width: 220px;
+		margin-left: 115px;
+	}
+	.dp-zamki-form__wrap .dp-dodings__form.form figurecaption {
+		bottom: 59px;
+	}
+}

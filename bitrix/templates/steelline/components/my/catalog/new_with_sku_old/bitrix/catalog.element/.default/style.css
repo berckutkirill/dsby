@@ -1,0 +1,18 @@
+.item .wrap .top .right .base .price.double{
+font-size:21px;
+}
+.sale_tmp_link {
+    color: #fa8072;
+    font: 400 16px 'Open Sans', sans-serif;
+    border-bottom: 2px solid;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.sale_tmp_link_wrapper {
+    margin-bottom: 20px;
+}
+span.sale_tmp_text {
+    font: 400 18px 'Open Sans', sans-serif;
+    color: #666;
+}

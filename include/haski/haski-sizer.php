@@ -1,0 +1,1 @@
+   <p class="c-p3 c-p3--small">Закажите <a href="/uslugi/zamer/" class="c-link">бесплатный&nbsp;замер,</a> чтобы&nbsp;определить параметры будущей двери и доборов</p>

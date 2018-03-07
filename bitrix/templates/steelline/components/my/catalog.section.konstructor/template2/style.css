@@ -1,0 +1,8 @@
+.constructor .wrap .content .block.last .zero {
+    display: none;
+}
+li.disabled * {
+    cursor: default !important;
+    opacity: .5 !important;
+    border: 2px solid #e9e8e8 !important;
+}

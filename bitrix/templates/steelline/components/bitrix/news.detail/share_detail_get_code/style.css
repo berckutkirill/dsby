@@ -1,0 +1,32 @@
+.action .wrap .content .gen_code p.fs14 {
+	font-size:14px;
+	margin-bottom:10px;
+}
+.air {
+    margin-top: 40px;
+}
+
+.my-flex-container {
+	display:flex;
+	justify-content:space-between;
+}
+.my-flex-block {
+
+}
+.action .wrap .content .gen_code .inf{
+	width:initial;
+	padding: 5px 40px;
+	border-left: 1px solid #ddd;
+}
+
+.action .wrap .content .gen_code p {
+	margin-bottom:0px;
+}
+
+.blue_text {
+  cursor:pointer;
+  display: inline;
+  font: 400 16px 'Open Sans', sans-serif;
+  color: #2875d4;
+  border-bottom: 1px solid #b1c6ec;
+}

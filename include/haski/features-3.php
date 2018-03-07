@@ -1,0 +1,3 @@
+ <h3 class="c-h4 haski-features-item__title">Терморазрыв полотна</h3>
+                        <p class="c-p1 haski-features-item__desc">Наружная поверхность полотна не соприкасается с&nbsp;внутренней, исключает <span class="haski-tooltip tooltipjs" data-before="«" data-after="»" tabindex="0" data-title="Мостики холода" data-title="Мостики холода" data-text="Специальные стальные пластины, которые усиливают конструкцию и повышают взломостойкость">мостики&nbsp;холода</span>. Терморазрыв&nbsp;защищает дверь от промерзания и&nbsp;образования конденсата.</p>
+                        

@@ -1,0 +1,104 @@
+{{#ITEMS}}
+    {{#FACTOIDPROP}}
+        <div class="factoid_container">
+            {{{UF_DESCRIPTION}}}
+        </div>
+    {{/FACTOIDPROP}}
+    {{#DOUBLE_DOORS}}
+        {{#NAME}}
+        <div class="catalog_main_content_card double_door {{#REVERSE_STYLE}}reverse_order{{/REVERSE_STYLE}}"> 
+            <div class="card_current_article_item justified_container">
+            <a href="{{URL}}" >
+                <div class="card_current_article_item_view justified_container">
+
+                    {{#IMGINFO}}<p class="card_current_article_item_img blured"><img src="{{SRC}}" alt="{{ALT}}" data-src="{{BIG_SRC}}"></p>{{/IMGINFO}}
+
+                </div>
+            </a>
+            <a href="{{GENERAL_URL}}">
+                {{#PRICE}}
+                <div class="card_current_article_item_descr {{#DISCOUNT_VALUE}}discounted{{/DISCOUNT_VALUE}}">
+                    <span class="card_current_article_item_name">{{NAME}}</span>
+                    {{#PROPERTIES}}
+                    <ul class="card_current_article_item_lables lables">
+                        {{#DESTINATION_ICON}}
+                        <li class="card_current_article_item_label {{VALUE_XML_ID}}">{{VALUE}}</li>
+                        {{/DESTINATION_ICON}}
+                    </ul>
+                    <div class="card_current_article_item_params">
+                        {{#PARAMETERS}}
+                        <p class="card_current_article_item_param"><span class="param_name">{{PARAMETER_NAME}}</span><span class="param_value">{{PARAMETER_VALUE}}</span></p>
+                        {{/PARAMETERS}}
+                    </div>
+                    {{/PROPERTIES}}
+                    <p class="card_current_article_item_price"><span>{{VALUE}}</span> руб.</p>
+                    <p class="card_current_article_item_discount_price">{{DISCOUNT_VALUE}}</p>
+                </div>
+                {{/PRICE}}
+                
+            </a>
+            </div>
+            <ul class="card_articles">
+                {{#OFFERS}}
+                
+                {{#MIN_PRICE}}
+                <li class="card_article justified_container blured {{#DISCOUNT_VALUE}}discount{{/DISCOUNT_VALUE}}" data-href="{{DETAIL_PAGE_URL}}"  data-price="{{VALUE}}" data-discountPrice="{{DISCOUNT_VALUE}}">
+                {{/MIN_PRICE}}
+
+                    {{#PREVIEW_PICTURES}}
+                    <img src="{{SRC}}" alt="{{ALT}}" data-src="{{BIG_SRC}}">
+                    {{/PREVIEW_PICTURES}}
+
+                </li>
+                {{/OFFERS}}
+            </ul>
+        </div>
+        {{/NAME}}
+    {{/DOUBLE_DOORS}}
+    {{^DOUBLE_DOORS}}
+    {{#NAME}}
+<div class="catalog_main_content_card justified_container">
+    <div class="card_current_article_item">
+        <a href="{{URL}}">
+            <div class="card_current_article_item_view justified_container">
+
+                {{#IMGINFO}}<p class="card_current_article_item_img blured"><img src="{{SRC}}" alt="{{ALT}}" data-src="{{BIG_SRC}}"></p>{{/IMGINFO}}
+
+            </div>
+        </a>
+        <a href="{{GENERAL_URL}}">
+            {{#PRICE}}
+            <p class="card_current_article_item_descr {{#DISCOUNT_VALUE}}discounted{{/DISCOUNT_VALUE}} justified_container">
+                <span class="card_current_article_item_name">{{NAME}}</span>
+                <span class="card_current_article_item_price"><span>{{VALUE}}</span> руб.</span>
+                <span class="card_current_article_item_discount_price">{{DISCOUNT_VALUE}}</span>
+
+            </p>
+            {{/PRICE}}
+            {{#PROPERTIES}}
+            <ul class="card_current_article_item_lables lables">
+                {{#DESTINATION_ICON}}
+                <li class="card_current_article_item_label {{VALUE_XML_ID}}">{{VALUE}}</li>
+                {{/DESTINATION_ICON}}
+            </ul>
+            {{/PROPERTIES}}
+        </a>
+    </div>
+    <ul class="card_articles">
+        {{#OFFERS}}
+        
+        {{#MIN_PRICE}}
+        <li class="card_article justified_container blured {{#DISCOUNT_VALUE}}discount{{/DISCOUNT_VALUE}}" data-href="{{DETAIL_PAGE_URL}}"  data-price="{{VALUE}}" data-discountPrice="{{DISCOUNT_VALUE}}">
+        {{/MIN_PRICE}}
+
+            {{#PREVIEW_PICTURES}}
+            <img src="{{SRC}}" alt="{{ALT}}" data-src="{{BIG_SRC}}">
+            {{/PREVIEW_PICTURES}}
+
+        </li>
+        {{/OFFERS}}
+    </ul>
+</div>
+{{/NAME}}
+{{/DOUBLE_DOORS}}
+{{/ITEMS}}

@@ -1,0 +1,4 @@
+.catalog_main_content_card, .catalog_main_content_card * {
+	box-sizing: border-box;
+	font-family: 'museo500', sans-serif;
+}

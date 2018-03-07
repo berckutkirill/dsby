@@ -1,0 +1,637 @@
+.dp-safery * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-family: 'museo500';
+  font-size: 18px; }
+
+.dp-link-st {
+  text-decoration: none;
+  color: #498adb;
+  border-bottom: 1px solid rgba(73, 138, 219, 0.2);
+  transition: all 0.3s;
+  position: relative;
+  cursor: pointer; }
+  .dp-link-st:hover {
+    color: #d24343;
+    border-color: rgba(210, 67, 67, 0.2); }
+
+.dp-page-title {
+  font-family: 'museo700';
+  font-size: 83px;
+  line-height: 62px; }
+
+.dp-safery__wrap {
+  width: 1068px;
+  margin: 0px auto 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .dp-safery__wrap-left {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 229px;
+            flex: 0 0 229px; }
+  .dp-safery__wrap-right {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 196px;
+            flex: 0 0 196px;
+    padding-left: 25px; }
+  .dp-safery__wrap:nth-of-type(1) {
+    margin-bottom: 55px; }
+    .dp-safery__wrap:nth-of-type(1) .dp-safery__wrap-left,
+    .dp-safery__wrap:nth-of-type(1) .dp-safery__wrap-right {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+  .dp-safery__wrap:nth-of-type(2) {
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 55px; }
+  .dp-safery__wrap:nth-of-type(4) {
+    margin-bottom: 50px; }
+    .dp-safery__wrap:nth-of-type(4) .dp-safery__wrap-left {
+      position: relative; }
+  .dp-safery__wrap:nth-of-type(5) {
+    border-bottom: 1px solid #e0e0e0; }
+  .dp-safery__wrap:nth-of-type(6) {
+    margin-bottom: 60px; }
+
+.dp-safery__container {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto; }
+
+.dp-safery__desc {
+  padding-bottom: 15px;
+  line-height: 26px; }
+  .dp-safery__desc:last-child {
+    padding-bottom: 0px; }
+  .dp-safery__desc-sel {
+    padding-left: 3px;
+    position: relative;
+    margin-left: -3px;
+    background-color: #ecf4fe; }
+  .dp-safery__desc-sel .dp-door__line {
+    width: 158px;
+    top: 11px;
+    -webkit-transform: rotateZ(48deg);
+            transform: rotateZ(48deg); }
+
+.dp-safery__ldesc {
+  font-size: 15px;
+  display: inline-block;
+  line-height: 20px; }
+
+.dp-safery__section-title {
+  font-size: 42px;
+  line-height: 47px;
+  padding-bottom: 6px;
+  font-family: 'museo700'; }
+
+.dp-safery__block {
+  margin-bottom: 35px; }
+  .dp-safery__block-title {
+    font-size: 22px;
+    line-height: 30px;
+    font-family: 'museo700'; }
+
+.dp-safery__header {
+  width: 1055px;
+  border-radius: 1px;
+  color: #fff;
+  text-align: center;
+  padding: 53px;
+  margin: 0 auto 45px;
+  -webkit-transform: skewX(-10deg);
+          transform: skewX(-10deg);
+  background-image: linear-gradient(to bottom, #0a8951, #179760 26%, #36bb90); }
+  .dp-safery__header-wrap {
+    -webkit-transform: skewX(10deg);
+            transform: skewX(10deg); }
+  .dp-safery__header-title {
+    padding-bottom: 28px; }
+  .dp-safery__header-desc {
+    font-size: 22px;
+    line-height: 30px; }
+
+.dp-safery-int__lock {
+  padding: 15px 0 24px 62px;
+  position: relative; }
+  .dp-safery-int__lock-img-wrap {
+    width: 386px;
+    height: 229px; }
+  .dp-safery-int__lock-img-desc {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0; }
+    .dp-safery-int__lock-img-desc span {
+      display: block;
+      position: absolute;
+      font-size: 15px; }
+      .dp-safery-int__lock-img-desc span:after {
+        content: '';
+        position: absolute;
+        height: 1px;
+        background-color: #979797;
+        top: 50%; }
+      .dp-safery-int__lock-img-desc span:first-child {
+        left: 0;
+        bottom: 62px; }
+        .dp-safery-int__lock-img-desc span:first-child:after {
+          width: 80px;
+          -webkit-transform: translateX(5px) rotateZ(-26deg);
+                  transform: translateX(5px) rotateZ(-26deg);
+          -webkit-transform-origin: 0 50%;
+                  transform-origin: 0 50%; }
+      .dp-safery-int__lock-img-desc span:nth-child(2) {
+        left: 50%;
+        bottom: 30px;
+        font-family: 'museo700';
+        -webkit-transform: translateX(-70%) rotateZ(-6deg);
+                transform: translateX(-70%) rotateZ(-6deg); }
+      .dp-safery-int__lock-img-desc span:nth-child(3) {
+        width: 205px;
+        top: 60px;
+        right: 0;
+        line-height: 17px; }
+        .dp-safery-int__lock-img-desc span:nth-child(3):after {
+          width: 140px;
+          top: 100%;
+          right: 100%;
+          -webkit-transform-origin: 100% 50%;
+                  transform-origin: 100% 50%;
+          -webkit-transform: translateX(-9px) rotateZ(-25deg);
+                  transform: translateX(-9px) rotateZ(-25deg); }
+      .dp-safery-int__lock-img-desc span:last-child {
+        width: 205px;
+        bottom: 43px;
+        right: 0;
+        line-height: 19px; }
+        .dp-safery-int__lock-img-desc span:last-child:after {
+          width: 43px;
+          top: 6px;
+          right: 100%;
+          -webkit-transform-origin: 100%;
+                  transform-origin: 100%;
+          -webkit-transform: translateX(-5px) rotateZ(-25deg);
+                  transform: translateX(-5px) rotateZ(-25deg); }
+
+.dp-safery-int__coin {
+  margin-top: 100px; }
+  .dp-safery-int__coin-img-wrap {
+    width: 67px;
+    height: 80px; }
+  .dp-safery-int__coin-desc {
+    margin-top: 8px; }
+
+.dp-safery-int__comb {
+  margin-bottom: 100px; }
+  .dp-safery-int__comb-img-wrap {
+    overflow: visible;
+    width: 189px;
+    position: relative;
+    height: 111px; }
+  .dp-safery-int__comb-img-wrap:after {
+    content: '';
+    position: absolute;
+    height: 99px;
+    width: 1px;
+    background-color: #e2e2e2;
+    left: 0px;
+    bottom: 24px; }
+
+.dp-safery-int__onlay {
+  margin-bottom: 2px; }
+  .dp-safery-int__onlay-img-wrap {
+    margin-bottom: 4px;
+    width: 71px;
+    height: 102px; }
+
+.dp-safery-int__coll-img-wrap {
+  width: 165px;
+  height: 32px; }
+
+.dp-safery-int__arm {
+  margin-bottom: 2px; }
+  .dp-safery-int__arm-img-wrap {
+    width: 148px;
+    height: 126px; }
+
+.dp-safery-int__port {
+  margin-top: 55px;
+  margin-bottom: 104px; }
+
+.dp-safery-manager {
+  position: relative; }
+  .dp-safery-manager__img-wrap {
+    display: inline-block;
+    vertical-align: top;
+    width: 193px;
+    height: 296px; }
+  .dp-safery-manager__img-desc {
+    position: absolute;
+    left: 0;
+    bottom: 16px; }
+  .dp-safery-manager__name {
+    display: block;
+    font-family: 'museo700';
+    line-height: .8; }
+  .dp-safery-manager__pos {
+    font-size: 14px;
+    line-height: 17px; }
+  .dp-safery-manager__desc {
+    vertical-align: top;
+    width: 372px;
+    display: inline-block;
+    font-size: 22px;
+    line-height: 31px;
+    font-family: 'museo700'; }
+    .dp-safery-manager__desc-link {
+      position: relative;
+      font-size: 22px;
+      line-height: 31px;
+      font-family: 'museo700'; }
+    .dp-safery-manager__desc-link:after {
+      content: '';
+      width: 70px;
+      height: 10px;
+      left: 0px;
+      top: 50%;
+      transform: translateY(-50%);
+      position: absolute; }
+
+.dp-safery-pow__title-t {
+  display: block;
+  margin-bottom: -4px;
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: 1.2px;
+  font-family: 'museo700';
+  text-transform: uppercase; }
+
+.dp-safery-pow__antishock {
+  position: relative;
+  margin-bottom: 0px; }
+  .dp-safery-pow__antishock-img-wrap {
+    width: 185px;
+    height: 185px;
+    display: inline-block; }
+  .dp-safery-pow__antishock-wrap {
+    display: inline-block;
+    width: 425px;
+    padding-right: 10px; }
+  .dp-safery-pow__antishock .dp-door__line {
+    margin-right: 4px;
+    width: 211px;
+    top: 15px;
+    -webkit-transform: rotateZ(71deg);
+            transform: rotateZ(71deg); }
+
+.dp-safery-pow__mont {
+  width: 715px;
+  margin: 0 auto;
+  padding-bottom: 70px; }
+  .dp-safery-pow__mont-img-wrap {
+    position: relative;
+    width: 715px;
+    height: 476px; }
+  .dp-safery-pow__mont-img-desc {
+    width: 87px;
+    position: absolute;
+    font-size: 15px;
+    left: 100%;
+    bottom: 0;
+    -webkit-transform: translateX(15px);
+            transform: translateX(15px); }
+  .dp-safery-pow__mont-img-link {
+    line-height: 20px;
+    font-size: 12px; }
+  .dp-safery-pow__mont-img-link span {
+    font-size: 15px;
+    position: relative;
+  }
+  .dp-safery-pow__mont-img-link span:after {
+    content: '';
+    position: absolute;
+    width: 95%;
+    height: 10px;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%); }
+  .dp-safery-pow__mont-wrap {
+    width: 660px;
+    margin: 22px 0 0 43px; }
+
+.dp-door__line {
+  position: absolute;
+  height: 1px;
+  background-color: #dbe3ef;
+  -webkit-transform-origin: right center;
+          transform-origin: right center;
+  right: 100%; }
+  .dp-door__line-base {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    top: 0;
+    right: 0; }
+
+.dp-safery-pow__door {
+  width: 169px;
+  height: 353px;
+  position: relative;
+  overflow: visible; }
+  /*.dp-safery-pow__door:after {
+    content: '';
+    position: absolute;
+    width: 157px;
+    bottom: 137px;
+    left: 100%;
+    -webkit-transform-origin: left center;
+            transform-origin: left center;
+    height: 1px;
+    -webkit-transform: translateX(-49px) rotateZ(47deg);
+            transform: translateX(-49px) rotateZ(47deg);
+    background-color: #dbe3ef; }
+  .dp-safery-pow__door:before {
+    content: '';
+    position: absolute;
+    width: 210px;
+    bottom: 64px;
+    left: 100%;
+    -webkit-transform-origin: left center;
+            transform-origin: left center;
+    height: 1px;
+    -webkit-transform: translateX(-11px) rotateZ(71deg);
+            transform: translateX(-11px) rotateZ(71deg);
+    background-color: #dbe3ef; }*/
+
+.dp-safery-pow__mounting {
+  margin-top: 380px; }
+  .dp-safery-pow__mounting-img-wrap {
+    margin-left: -26px;
+    width: 169px;
+    height: 24px; }
+  .dp-safery-pow__mounting-desc {
+    margin-top: -9px;
+    display: block; }
+
+.dp-safery-pow__weight {
+  margin-top: 45px; }
+  .dp-safery-pow__weight-title {
+    font-size: 26px;
+    line-height: 30px;
+    font-family: 'museo700';
+    padding-bottom: 2px;
+    display: block; }
+
+.dp-safery-defense {
+  width: 686px;
+  margin-top: 20px;
+  margin-bottom: 30px; }
+  .dp-safery-defense__desc {
+    font-size: 22px;
+    line-height: 30px; }
+
+.dp-safery-table {
+  position: relative;
+  border-collapse: initial;
+  border-spacing: 0;
+  text-align: left; }
+  .dp-safery-table thead th {
+    font-family: 'museo700'; }
+  .dp-safery-table th:not(:last-child),
+  .dp-safery-table td:not(:last-child),
+  .dp-safery-table th:first-child,
+  .dp-safery-table td:first-child {
+    padding-right: 40px; }
+  /*.dp-safery-table th:nth-child(2),
+  .dp-safery-table td:nth-child(2) {
+    padding-right: 40px; }*/
+  .dp-safery-table thead tr th {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 2px; }
+  .dp-safery-table__block {
+    padding-top: 30px;
+    padding-bottom: 4px;
+    display: block; }
+    .dp-safery-table__block:first-child {
+      padding-top: 8px; }
+    .dp-safery-table__block th {
+      font-family: 'museo700'; }
+  .dp-safery-table tbody th:first-child:not(:last-child) {
+    padding-left: 20px; }
+  .dp-safery-table tbody th:not(:last-child),
+  .dp-safery-table tbody td {
+    padding-top: 4px;
+    padding-bottom: 4px; }
+  .dp-safery-table tfoot {
+    vertical-align: top; }
+    .dp-safery-table tfoot td {
+      padding: 10px 30px 10px 0; }
+  .dp-safery-table__tooltip {
+    position: relative;
+    display: inline-block;
+    padding: 0;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all .3s;
+    color: #000;
+    z-index: 10; }
+    .dp-safery-table__tooltip:hover {
+      color: #498adb;
+      border-color: rgba(73, 138, 219, 0.2); }
+
+.dp-safery-table tr th.dp-safery-table__tooltip:not(.active) {
+  padding: 0;
+  margin: 4px 30px 4px 20px; }
+
+.dp-safery .tooltip {
+  font-size: 15px;
+  line-height: 20px;
+  background-color: #e6f4fb;
+  box-shadow: 0 2px 3px 0 rgba(110, 136, 148, 0.41);
+  padding: 12px 19px 19px 13px;
+  position: absolute;
+  display: block;
+  border-radius: 2px;
+  left: 0;
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
+  -webkit-animation: tooltip .3s forwards;
+          animation: tooltip .3s forwards; }
+  .dp-safery .tooltip:before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    background-color: #e6f4fb;
+    position: absolute;
+    bottom: 0px;
+    left: 23px;
+    -webkit-transform: translateY(50%) rotateZ(45deg);
+            transform: translateY(50%) rotateZ(45deg);
+    box-shadow: 0 2px 3px 0 rgba(110, 136, 148, 0.41);
+    border-radius: 0 0 2px 0; }
+  .dp-safery .tooltip:after {
+    background-color: #e6f4fb;
+    position: absolute;
+    content: '';
+    width: 25px;
+    height: 15px;
+    bottom: 0px;
+    left: 18px; }
+
+.dp-safery__form-wrap {
+  width: 884px;
+  text-align: right;
+  margin: 0 auto; }
+
+.dp-safery__form {
+  display: inline-block;
+  text-align: left;
+  position: relative;
+  /*height: 728px;*/
+  width: 793px; }
+  .dp-safery__form .dp-dodings__form.form {
+    padding: 25px 36px 60px; }
+  .dp-safery__form .dp-dodings__form.form .guarantee_letter_field_detail {
+    margin-left: 0px; }
+  .dp-safery__form .dp-dodings__form.form .textblock {
+    margin-bottom: 25px; }
+  .dp-safery__form .dp-dodings__form.form textarea.guarantee_letter_field {
+    width: 330px; }
+  .dp-safery__form .dp-dodings__form.form .guarantee_letter_field_detail:nth-of-type(1) {
+    margin-left: 0;
+    width: auto;
+    display: block; }
+  .dp-safery__form .dp-dodings__form.form .send_button {
+    margin-left: 0;
+    width: 212px; }
+  .dp-safery__form .dp-zamki-see {
+    padding-bottom: 65px;
+    padding-top: 35px; }
+  .dp-safery__form .dp-img-wrap {
+    width: 227px;
+    height: 388px; }
+  .dp-safery__form .dp-dodings__form.form .dp-img-wrap {
+    right: 3px; }
+  .dp-safery__form .dp-dodings__form.form .dp-img-wrap img {
+    height: 100%;
+    width: 100%; }
+  .dp-safery__form .dp-dodings__form.form .metering_manager_text {
+    left: 54px; }
+  .dp-safery__form .dp-dodings__form.form figurecaption {
+    left: -92px; }
+  .dp-safery__form .dp-dodings-send__svg {
+    margin-top: -75px; }
+
+  .dp-safery__form .dp-dodings-send__title {
+    line-height: .9;
+    padding-bottom: 20px;
+  }
+
+@-webkit-keyframes tooltip {
+  0% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+    z-index: 1;
+    opacity: 0; }
+  80% {
+    z-index: 10; }
+  90% {
+    /*z-index: 10;*/
+    opacity: 1; }
+  100% {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+    z-index: 10;
+    opacity: 1; } }
+
+@keyframes tooltip {
+  0% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+    z-index: 1;
+    opacity: 0; }
+  80% {
+    z-index: 10; }
+  90% {
+    /*z-index: 10;*/
+    opacity: 1; }
+  100% {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+    z-index: 10;
+    opacity: 1; } }
+
+.dp-safery-plahka {
+  position: relative;
+  display: inline-block;
+  background-image: linear-gradient(to bottom, #0a8951, #179760 34%, #35c183);
+  padding-right: 40px; }
+  .dp-safery-plahka:after, .dp-safery-plahka:before {
+    content: '';
+    position: absolute;
+    background-color: #fff;
+    height: 50%;
+    width: 40px;
+    right: 0; }
+  .dp-safery-plahka:after {
+    bottom: 0;
+    -webkit-transform-origin: center bottom;
+            transform-origin: center bottom;
+    -webkit-transform: skewX(-35deg);
+            transform: skewX(-35deg); }
+  .dp-safery-plahka:before {
+    top: 0;
+    -webkit-transform-origin: center top;
+            transform-origin: center top;
+    -webkit-transform: skewX(35deg);
+            transform: skewX(35deg); }
+  .dp-safery-plahka__body {
+    position: relative;
+    padding: 14px 17px 24px 14px;
+    color: #fff;
+    display: inline-block; }
+    .dp-safery-plahka__body:after, .dp-safery-plahka__body:before {
+      content: '';
+      position: absolute;
+      height: 50%;
+      right: 0;
+      width: 40px; }
+    .dp-safery-plahka__body:after {
+      bottom: 0;
+      -webkit-transform-origin: center bottom;
+              transform-origin: center bottom;
+      -webkit-transform: skewX(-35deg);
+              transform: skewX(-35deg); }
+    .dp-safery-plahka__body:before {
+      top: 0;
+      -webkit-transform-origin: center top;
+              transform-origin: center top;
+      -webkit-transform: skewX(35deg);
+              transform: skewX(35deg); }
+  .dp-safery-plahka__title {
+    font-size: 20px;
+    font-family: 'museo700';
+    margin-bottom: 8px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    transition: border .3s;
+    display: inline-block;
+    line-height: 1.1; }
+    .dp-safery-plahka__title:hover {
+      border-color: white; }
+  .dp-safery-plahka__desc {
+    display: block;
+    font-size: 15px;
+    line-height: 18px;
+    font-family: 'museo500'; }

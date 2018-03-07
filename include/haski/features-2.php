@@ -1,0 +1,1 @@
+ <p class="haski-features-item__desc"><span>«</span>В зимний период, при сильных морозах&nbsp;промерзаний&nbsp;нет.»</p><span class="bold">Владимир</span>

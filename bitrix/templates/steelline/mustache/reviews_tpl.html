@@ -1,0 +1,60 @@
+{{#REVIEWS}}
+<div class="postedReviewItem">
+	{{#PREVIEW_PICTURES}}
+	<div class="postedReviewItem_foto blured">
+		<img src="{{SRC}}" alt="{{ALT}}" data-src="{{BIG_SRC}}" class="postedReviewItem_fotoImg">
+		<div class="postedReviewItem_fotoTitle">
+			<a href="{{LINK_DOOR}}" class="link_general postedReviewItem_fotoTitleName">{{NAME_DOOR}}</a>
+			<span class="postedReviewItem_fotoTitleSeries">серия «{{SERIES}}»</span>
+		</div>
+	</div>
+	{{/PREVIEW_PICTURES}}
+	{{#MANAGER}}
+	<div class="postedReviewItem_rating postedReviewItem_rating_{{MANAGER}}">
+		<span class="postedReviewItem_ratingSmile"></span>
+		<span class="postedReviewItem_ratingBlock">
+			<span class="postedReviewItem_ratingTitle">менеджер работал:</span>
+			<span class="postedReviewItem_ratingValue ratingValue_excellent">лучше всех</span>
+			<span class="postedReviewItem_ratingValue ratingValue_good">здорово</span>
+			<span class="postedReviewItem_ratingValue ratingValue_normal">нормально</span>
+			<span class="postedReviewItem_ratingValue ratingValue_bad">плохо</span>
+		</span>
+	</div>
+	{{/MANAGER}}
+	{{#DELIVERY}}
+	<div class="postedReviewItem_rating postedReviewItem_rating_{{DELIVERY}}">
+		<span class="postedReviewItem_ratingSmile"></span>
+		<span class="postedReviewItem_ratingBlock">
+			<span class="postedReviewItem_ratingTitle">доставили и установили:</span>
+			<span class="postedReviewItem_ratingValue ratingValue_excellent">очень быстро</span>
+			<span class="postedReviewItem_ratingValue ratingValue_good">быстро</span>
+			<span class="postedReviewItem_ratingValue ratingValue_normal">нормально</span>
+			<span class="postedReviewItem_ratingValue ratingValue_bad">медленно</span>
+		</span>
+	</div>
+	{{/DELIVERY}}
+	{{#DOOR}}
+	<div class="postedReviewItem_rating postedReviewItem_rating_{{DOOR}}">
+		<span class="postedReviewItem_ratingSmile"></span>
+		<span class="postedReviewItem_ratingBlock">
+			<span class="postedReviewItem_ratingTitle">дверь служит:</span>
+			<span class="postedReviewItem_ratingValue ratingValue_excellent">отлично</span>
+			<span class="postedReviewItem_ratingValue ratingValue_good">достойно</span>
+			<span class="postedReviewItem_ratingValue ratingValue_normal">нормально</span>
+			<span class="postedReviewItem_ratingValue ratingValue_bad">плохо</span>
+		</span>
+	</div>
+	{{/DOOR}}
+	<div class="postedReviewItem_text">
+		{{{REVIEW}}}
+	</div>
+	<div class="postedReviewItem_sign {{#LINK_REVIEW}} postedReviewItem_sign-link"><a href="{{LINK_REVIEW}}" class="link_general" target="_blank">{{NAME}}</a>{{/LINK_REVIEW}}
+		{{^LINK_REVIEW}} ">{{NAME}}{{/LINK_REVIEW}}
+	</div>
+	{{#ANSWER_BUSINESS}}
+	<div>
+		<p class="postedReviewItem_businessReply">{{ANSWER_BUSINESS}}</p>
+	</div>
+	{{/ANSWER_BUSINESS}}
+</div>
+{{/REVIEWS}}

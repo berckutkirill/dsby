@@ -1,0 +1,25 @@
+.constructor .wrap .content .block.last .zero {
+    display: none;
+}
+li.disabled * {
+    cursor: default !important;
+    opacity: .5 !important;
+    border: 2px solid #e9e8e8 !important;
+}
+.constructor .wrap .end_constr button.loading {
+    opacity: .2;
+}
+
+.constructor .wrap .end_constr a.exel.loading{
+ opacity: .2;
+}
+.table p {
+    font: 400 15px 'Open Sans', sans-serif;
+    color: #a1a1a1;
+}
+.constructor .wrap .content .block .line .select_list {
+    width: 418px;
+}
+.furn_detail .price_up{
+display:none !important;
+}
