@@ -1,0 +1,7 @@
+[03-Jun-2015 14:26:17 Europe/Minsk] PHP Fatal error:  Call-time pass-by-reference has been removed in /home/dssteell/public_html/bitrix/templates/steelline_m/clientu/index.php on line 5
+[03-Jun-2015 14:29:31 Europe/Minsk] PHP Fatal error:  Call-time pass-by-reference has been removed in /home/dssteell/public_html/bitrix/templates/steelline_m/clientu/index.php on line 7
+[03-Jun-2015 14:31:13 Europe/Minsk] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/dssteell/public_html/bitrix/templates/steelline_m/clientu/index.php on line 8
+[03-Jun-2015 14:32:51 Europe/Minsk] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/dssteell/public_html/bitrix/templates/steelline_m/clientu/index.php on line 9
+[03-Jun-2015 14:33:28 Europe/Minsk] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/dssteell/public_html/bitrix/templates/steelline_m/clientu/index.php on line 9
+[03-Jun-2015 14:37:27 Europe/Minsk] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/dssteell/public_html/bitrix/templates/steelline_m/clientu/index.php on line 7
+[03-Jun-2015 14:44:48 Europe/Minsk] PHP Parse error:  syntax error, unexpected ')' in /home/dssteell/public_html/bitrix/templates/steelline_m/clientu/index.php on line 13
