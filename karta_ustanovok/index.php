@@ -10,7 +10,7 @@ $APPLICATION->SetPageProperty("title", "Карта установок входн
 	</ul>
 </div>
 <div class="wrap doormap_container">
-	<p class="title_detail">В 2016-2018 году</p>
+	<p class="title_detail">В 2016-2017 году</p>
 	<h1 class="big_title doormap_title">Мы установили <span class="doors_quantity"></span> двер<span class="last_letter">ей</span>:</h1>
 	<div class="doormap_map" id="doors_installation_map">
 		<div class="doormap_preloader">

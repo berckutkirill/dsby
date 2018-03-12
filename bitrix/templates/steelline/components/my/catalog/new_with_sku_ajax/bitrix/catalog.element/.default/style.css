@@ -16,3 +16,7 @@ span.sale_tmp_text {
     font: 400 18px 'Open Sans', sans-serif;
     color: #666;
 }
+
+.salons.fll.carts_message:not(.hidden) + .carts_delivery {
+    top: 10px;
+}
