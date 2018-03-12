@@ -16,7 +16,7 @@ function getGeo($data) {
 function getArray($File) {
     $response = [];
     if (($handle = fopen($File, "r")) !== FALSE) {
-        while (($data = fgetcsv($handle, 1000, ";")) !== FALSE) {
+        while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
             $response[] = $data;
         }
         fclose($handle);
