@@ -1,7 +1,7 @@
 <?php
 $MESS["COLORS"] = "Цветовые исполнения:";
 $MESS["LOOK"] = "Посмотреть";
-$MESS["I_WANT_IT"] = "Хочу купить";
+$MESS["I_WANT_IT"] = "Оформить заказ";
 $MESS["DESCRIPTION"] = "Описание";
 $MESS["inside"] = "внутри";
 $MESS["OUT"] = "Снаружи: ";

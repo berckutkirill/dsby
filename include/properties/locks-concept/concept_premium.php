@@ -3,7 +3,7 @@
         <div class="c-tab__main">
             <div class="c-tab__body">
                 <div class="c-tab__title c-h4">
-                    <h4 class="c-tab__price active">+405 руб.</h4>
+                    <h4 class="c-tab__price active">+467 руб.</h4>
                     <h4 class="c-tab__price">+513 руб.</h4>
                 </div>
                 

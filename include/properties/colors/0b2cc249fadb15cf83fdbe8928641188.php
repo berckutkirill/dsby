@@ -32,8 +32,12 @@
             <span>Тик</span>
         </li>
         <li>
-            <img src="<?= SITE_TEMPLATE_PATH ?>/img/cool/color17.jpg" alt="">
-            <span>Махагон</span>
+            <img src="<?= SITE_TEMPLATE_PATH ?>/img/cool/20180320/shagren190.jpg" alt="">
+            <span>Шагрень антрацит</span>
         </li>
+<!--        <li>-->
+<!--            <img src="--><?//= SITE_TEMPLATE_PATH ?><!--/img/cool/color17.jpg" alt="">-->
+<!--            <span>Махагон</span>-->
+<!--        </li>-->
     </ul>
 </div>

@@ -2,7 +2,7 @@
     <div class="c-tab">
         <div class="c-tab__main">
             <div class="c-tab__body">
-                <h4 class="c-tab__title c-h4">+95 руб.</h4>
+                <h4 class="c-tab__title c-h4">+151 руб.</h4>
                 <p class="c-tab__text c-p2">Два цилиндровых механизмы имеют 4 высший класс безопасности. Замки защищены от интеллектуального исилового взлома. Цилиндр работает в условиях повышенной влажности и перепадах температур.</p>
             </div>
             <div class="c-tab__foot c-p2">

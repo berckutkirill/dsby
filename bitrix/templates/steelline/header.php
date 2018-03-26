@@ -84,7 +84,7 @@ if (!CModule::IncludeModule("sale"))
         $APPLICATION->ShowHeadStrings();
         $APPLICATION->ShowHeadScripts();
         $APPLICATION->ShowMeta("fragment");
-//include($_SERVER['DOCUMENT_ROOT'].SITE_TEMPLATE_PATH."/google.php");
+        include($_SERVER['DOCUMENT_ROOT'].SITE_TEMPLATE_PATH."/google.php");
         ?>
 
         <!-- Facebook Pixel Code 
@@ -105,7 +105,7 @@ if (!CModule::IncludeModule("sale"))
     -->
 </head>
 <body class="<?= $search || $thank ? "p-pressfoot" : "" ?>">
-    <? //include($_SERVER['DOCUMENT_ROOT'].SITE_TEMPLATE_PATH."/yandex.php"); ?>
+    <? include($_SERVER['DOCUMENT_ROOT'].SITE_TEMPLATE_PATH."/yandex.php"); ?>
     <? //include($_SERVER['DOCUMENT_ROOT'].SITE_TEMPLATE_PATH."/den.php");?>
 
 

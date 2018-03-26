@@ -17,6 +17,12 @@
 		Дуб миндальный </li>
 		<li> <img src="/bitrix/templates/steelline/img/cool/color_70.jpg" alt="">
 		Дуб грей </li>
+
+        <li> <img src="/bitrix/templates/steelline/img/cool/20180320/gray190.jpg" alt="">
+            Серая лазурь</li>
+
+        <li> <img src="/bitrix/templates/steelline/img/cool/20180320/yasen190.jpg" alt="">
+            Ясень белый</li>
 	</ul>
 </div>
 <br>

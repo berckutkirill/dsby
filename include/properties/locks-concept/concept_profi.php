@@ -3,7 +3,7 @@
         <div class="c-tab__main">
             <div class="c-tab__body">
                 <div class="c-tab__title c-h4">
-                    <h4 class="c-tab__price active">+176 руб.</h4>
+                    <h4 class="c-tab__price active">+233 руб.</h4>
                     <h4 class="c-tab__price">+284 руб.</h4>
                 </div>
                 <p class="c-tab__text c-tab__toggle c-p2 ">В замках установлены сменные механизмы секретности. Если ключ от двери утерян или установлена попытка взлома, вам не нужноменять замок. Достаточно заменить&nbsp;одну деталь — механизм секретности.

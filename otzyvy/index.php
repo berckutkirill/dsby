@@ -465,6 +465,9 @@ $str_ids = htmlspecialcharsbx($_GET["IDS"]);
             function showReviews(response) {
 
                 $.get('/bitrix/templates/steelline/mustache/reviews_tpl.html', function (template) {
+					response.REVIEWS.forEach(function(item){
+						item.ANSWER_BUSINESS = $('<textarea />').html(item.ANSWER_BUSINESS).val();
+					})
 
                     var rendered = Mustache.render(template, {REVIEWS: response.REVIEWS});
 

@@ -6,7 +6,7 @@
                 <p class="dp-tab__text">Создана итальянскими дизайнерами компании FADEX. Форма изделия сочетается с дверями в классическом стиле, подчёркивает благородство фрезы.</p>
                 <p class="dp-tab__text">Melodia Impero 740 в цвете «Античная бронза» устанавливается снаружи, внутри — нажимная ручка Armadillo в цвете «Бронза».</p>
                 <div class="price_wrap">
-                    <p class="price dp-tab__desc-title">+ <span class="num">702</span> руб.</p>
+                    <p class="price dp-tab__desc-title">+ <span class="num"><?=$arParams['HAND_PRICE'][18]['PRICE']?></span> руб.</p>
                 </div>
             </div>
             <div class="dp-tab__desc dp-tab-clip__desc"><img class="dp-tab-clip__desc-img" src="<?= SITE_TEMPLATE_PATH ?>/img/cool/clip1.jpg"/>

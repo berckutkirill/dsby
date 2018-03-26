@@ -16,11 +16,10 @@
             <p class="name">Standart <img src="<?= SITE_TEMPLATE_PATH ?>/img/cool/tyrkie.svg" alt=""></p>
             <p class="prop"><span>Верхний замок</span><b>Kale 257L</b></p>
             <p class="prop"><span>Нижний замок</span><b>Kale 252R</b></p>
-            <p class="prop"><span>Цилиндр</span><b>Kale</b></p>
-
+            <p class="prop"><span>Цилиндр</span><b>Apecs </b></p>
             <p class="benefit"><span>Замки турецкого производителя<br> с повышенной защитой от взлома. Привод замка с подшипником обеспечивает мягкость хода ручки</span></p>
             <div class="price_wrap">
-                <p class="price">+ <span class="num">81</span> руб.</p>
+                <p class="price">+ <span class="num">76</span> руб.</p>
             </div>
         </div>
     </div>

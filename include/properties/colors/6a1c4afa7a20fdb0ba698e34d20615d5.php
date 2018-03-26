@@ -47,9 +47,9 @@
             <img src="<?= SITE_TEMPLATE_PATH ?>/img/cool/color58.png" alt="">
             <span>Серый графит</span>
         </li>
-        <li>
-            <img src="<?= SITE_TEMPLATE_PATH ?>/img/cool/color59.png" alt="">
-            <span>Сочный зеленый</span>
-        </li>
+<!--        <li>-->
+<!--            <img src="--><?//= SITE_TEMPLATE_PATH ?><!--/img/cool/color59.png" alt="">-->
+<!--            <span>Сочный зеленый</span>-->
+<!--        </li>-->
     </ul>
 </div>

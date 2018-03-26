@@ -5,23 +5,57 @@
         </p>
         <div class="dp-options__wrap">
             <div class="dp-options__main">
+
                 <div class="dp-options__item">
                     <p class="dp-options__item-title">
-                        Внутреннее открывание
+                        Металлический наличник
                     </p>
                     <p class="dp-options__item-desc text">
-                        Используют, когда соседние входные двери при открытии блокируют друг друга.
+                        Отличается от стандартного размера — 90 мм.
+                        Устанавливается снаружи или внутри квартиры.
+                    </p>
+                    <p class="dp-options__item-desc price">
+                        +102 руб.
                     </p>
                 </div>
+
                 <div class="dp-options__item">
                     <p class="dp-options__item-title">
-                        Модель по индивидуальному заказу
+                        Датчик сигнализации
                     </p>
                     <p class="dp-options__item-desc text">
-                        Выбор входной двери не ограничивается готовыми предложениями в каталоге.
+                        Предупредит при незаконном проникновении
+                        в&nbsp;квартиру или взломе входной двери.
+                    </p>
+                    <p class="dp-options__item-desc price">
+                        +38 руб.
+                    </p>
+                </div>
+
+                <div class="dp-options__item">
+                    <p class="dp-options__item-title">
+                        Нестандарные размеры двери
                     </p>
                     <p class="dp-options__item-desc text">
-                        Из более трёхста наружных и внутренних панелей серии можно&nbsp;скомбинировать уникальную по своей отделке и&nbsp;цветовому&nbsp;решению модель.
+                        Под индивидуальный проём можно заказать
+                        дверь по высоте от 1980 до 2160 мм
+                        и от 800 до 1000 мм по ширине.
+                    </p>
+                    <p class="dp-options__item-desc price">
+                        +51 руб.
+                    </p>
+                </div>
+
+                <div class="dp-options__item">
+                    <p class="dp-options__item-title">
+                        Нержавеющий стальной порог
+                    </p>
+                    <p class="dp-options__item-desc text">
+                        Устойчив к механическим воздействиям:
+                        сколам, царапинам и стиранию.
+                    </p>
+                    <p class="dp-options__item-desc price">
+                        +64 руб.
                     </p>
                 </div>
                 <div class="dp-options__item">
@@ -29,82 +63,67 @@
                         Окраска коробки
                     </p>
                     <p class="dp-options__item-desc text">
-                        Влияет на внешний вид двери изнутри помещения. Базовая окраска в чёрном цвете не всегда гармонирует с дизайном интерьера или отделкой дверной панели.
+                        Базовый чёрный цвет коробки не всегда
+                        гармонирует с дизайном интерьера, поэтому
+                        возможна окраска в иные цвета.
                     </p>
-                    <p class="dp-options__item-desc text">
-                        Без дополнительных доплат, коробку входной двери можно окрасить в коричневый цвет.
+                   <p class="dp-options__item-desc price">
+                        +25 руб. — коричневый или антрацит
+                    </p> 
+<p class="dp-options__item-desc price">
+                        +38 руб. — белый или слоновая кость
                     </p>
-                    <div class="price_wrap dp-options__item-title">
-                        <p class="price">
-                            Доплата за белый цвет коробки + <span class="num">41 </span>руб.
-                        </p>
-<p class="price">
-                            Окраска коробки в 2 цвета + <span class="num">135 </span>руб.
-                        </p>
-                    </div>
-                </div>
-                <div class="dp-options__item">
-                    <p class="dp-options__item-title">
-                        Нержавеющий порог
+                    <p class="dp-options__item-desc price">
+                        +127 руб. — окраска коробки в 2 цвета
                     </p>
-                    <p class="dp-options__item-desc text">
-                        Выполнен из стальных пластин. Устойчив к механическим воздействиям: сколам, царапинам и стиранию. Сохраняет первоначальный внешний вид весь период эксплуатации.
-                    </p>
-                    <div class="price_wrap dp-options__item-title">
-                        <p class="price">
-                            + <span class="num">68 </span>руб.
-                        </p>
-                    </div>
-                </div>
-				<div class="dp-options__item">
-                    <p class="dp-options__item-title">
-                      Нестандарные размеры
-                    </p>
-                    <p class="dp-options__item-desc text">
-                      Под индивидуальный проём можно заказать дверь по высоте от&nbsp;1980&nbsp;до&nbsp;2160 мм и от 800 до 1000 мм по ширине.
-                    </p>
-                    <div class="price_wrap dp-options__item-title">
-                        <p class="price">
-                            + <span class="num">54 </span>руб.
-                        </p>
-                    </div>
+     
                 </div>
             </div>
-            <div class="dp-options__aside">
-                <div class="dp-doors-chema">
-                    <div class="dp-doors-chema__item">
-                        <img alt="схема дверей" src="/bitrix/templates/steelline/img/cool/chema-2x.png" 
-                             class="dp-doors-chema__img"
-                             srcset="<?= SITE_TEMPLATE_PATH ?>/img/cool/chema.png 1x, <?= SITE_TEMPLATE_PATH ?>/img/cool/chema-2x.png 2x"/>
-                        <p class="dp-doors-chema__item-title">
-                            Двери расположены <br>
-                            правильно
-                        </p>
+            <div class="dp-doors-bottom">
+                <div class="dp-doors-bottom-left">
+                    <div class="dp-doors-chema">
+                        <div class="dp-doors-chema__item">
+                            <img alt="схема дверей" src="/bitrix/templates/steelline/img/cool/chema-2x.png"
+                                 class="dp-doors-chema__img"
+                                 srcset="<?= SITE_TEMPLATE_PATH ?>/img/cool/chema.png 1x, <?= SITE_TEMPLATE_PATH ?>/img/cool/chema-2x.png 2x"/>
+                            <p class="dp-doors-chema__item-title">
+                                Двери расположены <br>
+                                правильно
+                            </p>
+                        </div>
+                        <div class="dp-doors-chema__item">
+                            <img alt="схема дверей" src="/bitrix/templates/steelline/img/cool/chema-2-2x.png"
+                                 class="dp-doors-chema__img"
+                                 srcset="<?= SITE_TEMPLATE_PATH ?>/img/cool/chema-2.png 1x, <?= SITE_TEMPLATE_PATH ?>/img/cool/chema-2-2x.png 2x"/>
+                            <p class="dp-doors-chema__item-title">
+                                Неправильно
+                            </p>
+                        </div>
                     </div>
-                    <div class="dp-doors-chema__item">
-                        <img alt="схема дверей" src="/bitrix/templates/steelline/img/cool/chema-2-2x.png" 
-                             class="dp-doors-chema__img" 
-                             srcset="<?= SITE_TEMPLATE_PATH ?>/img/cool/chema-2.png 1x, <?= SITE_TEMPLATE_PATH ?>/img/cool/chema-2-2x.png 2x"/>
-                        <p class="dp-doors-chema__item-title">
-                            Неправильно
+                    <div class="dp-options__item">
+                        <p class="dp-options__item-title">
+                            Внутреннее открывание
+                        </p>
+                        <p class="dp-options__item-desc text">
+                            Используют, когда соседние входные двери
+                            при&nbsp;открытии блокируют друг друга.
                         </p>
                     </div>
                 </div>
-                <div class="dp-options__manager">
-                    <img src="<?=SITE_TEMPLATE_PATH?>/img/cool/ekat-2x.jpg" class="dp-options__manager-img" 
-                         srcset="<?= SITE_TEMPLATE_PATH ?>/img/cool/ekat.jpg 1x, <?= SITE_TEMPLATE_PATH ?>/img/cool/ekat-2x.jpg 2x" 
-                         alt='менеджер'/>
-                    <div class="dp-options__manager-say">
-                        <p class="dp-options__manager-say-item">
-                            Сориентирую по стоимости входной двери с внутренним открыванием или модели по&nbsp;индивидуальному заказу.
-                        </p>
-                        <p class="dp-options__manager-say-item">
-                            Расскажу об утеплении и&nbsp;терморазрыве коробки. Сориентирую<br>
-                            по доплате
-                        </p>
+                <div class="dp-doors-bottom-right">
+
+                    <div class="dp-options__manager">
+
+                        <div class="dp-options__manager-say">
+                            <p class="dp-options__manager-say-item">
+                                Подробнее раскажу про опции под заказ.
+                                Помогу определить сторону открывания
+                            </p>
+                        </div>
+                        <p class="dp-options__manager-name">Алевтина</p>
+                        <p class="dp-options__manager-say">менеджер по продажам<br>+375 44 770 48 04</p>
+
                     </div>
-                    <span class="dp-options__manager-name">Екатерина, менеджер <br>
-                        по продажам</span>
                 </div>
             </div>
         </div>

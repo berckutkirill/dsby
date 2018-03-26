@@ -24,7 +24,7 @@
 		</div>
 		<div class="c-footer__bot-item c-footer__tibo">
 			<p class="c-p4">
-				Сайт работает <a href="https://www.1c-bitrix.ru/composite/" target="_blank" class="c-link" rel="nofollow">Быстро с 1С-Битрикс</a>
+				Сайт работает на <a href="https://www.1c-bitrix.ru/composite/" target="_blank" class="c-link" rel="nofollow">1С-Битрикс</a>
 			</p>
 			<p class="c-p4">
 				Призёр «Интернет-премии „Тибо 2016“»
@@ -34,7 +34,7 @@
 			<div class="c-footer__manuf">
 				<a class="c-link c-link--notdecor c-footer__manuf-link" target="_blank" href="//cheshire-cat.by/" rel="nofollow">Чеширский Кот</a>
 				<p class="c-p5 c-p5--small">
-					версия 2.0.4, 20.12.17
+					версия 2.0.4, 26.03.18
 				</p>
 			</div>
 		</div>
