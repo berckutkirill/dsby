@@ -1,0 +1,60 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Дверь защищает", 
+		"/bezopasnost/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Процесс выбора", 
+		"/kak-vybrat-dver/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Замки", 
+		"/zamki/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Mul-T-Lock", 
+		"/multlock/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Система ENTR", 
+		"/multlock/entr/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Доборы", 
+		"/uslugi/ustanovka_doborov/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Герконы и доводчики", 
+		"/uslugi/ustanovka_gerkonov_i_dovodchikov.html", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Реставрация", 
+		"/uslugi/zamena_i_ustanovka_nakladok_restavratsiya_dverey.html", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

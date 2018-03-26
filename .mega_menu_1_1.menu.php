@@ -1,0 +1,53 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Клиенту", 
+		"/clientu/", 
+		Array(), 
+		Array("class"=>"c-mega-menu__links-title"), 
+		"" 
+	),
+	Array(
+		"Процесс выбора", 
+		"/kak-vybrat-dver/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Бесплатный замер", 
+		"/uslugi/zamer/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Доставка и установка", 
+		"/dostavka-i-ustanovka/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Оплата", 
+		"/oplata/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Рассрочка", 
+		"/oplata/kartoi-rassrochki/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Гарантия", 
+		"/clientu/garantiinoe-obsluzhivanie/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>
