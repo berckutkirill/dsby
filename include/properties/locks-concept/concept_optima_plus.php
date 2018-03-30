@@ -1,7 +1,7 @@
 <li class="c-tabs__item <?= !$arParams["DATA_TAB"] ? "c-tabs__item--active" : "" ?>">   
     <div class="c-tab">
         <div class="c-tab__main">
-            <div class="c-tab__body">
+            <div class="c-tab__body c-h4">
                 <? if ($arParams['INCOMPL']) { ?>
                     <h4 class="c-tab__price active">Входит в стоимость</h4>
                 <? } else { ?>
