@@ -3,9 +3,9 @@
         <div class="c-tab__main">
             <div class="c-tab__body">
                 <? if ($arParams['INCOMPL']) { ?>
-                    <h4 class="c-tab__title c-h4">Входит в стоимость</h4>
+                    <h4 class="c-tab__price active">Входит в стоимость</h4>
                 <? } else { ?>
-                    <h4 class="c-tab__title c-h4">+55 руб.</h4>
+                    <h4 class="c-tab__price active">+55 руб.</h4>
                 <? } ?>
                 <p class="c-tab__text c-p2">Замки защищены от силового взлома: сверления, фрезерования и вбивания ригелей внутрь корпуса. Секретные&nbsp;пины цилиндра предотвращают взлом замка&nbsp;методом подбора комбинации.</p>
             </div>

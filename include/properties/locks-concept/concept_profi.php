@@ -4,7 +4,7 @@
             <div class="c-tab__body">
                 <div class="c-tab__title c-h4">
                     <? if ($arParams['INCOMPL']) { ?>
-                        <h4 class="c-tab__title c-h4">Входит в стоимость</h4>
+                        <h4 class="c-tab__price active">Входит в стоимость</h4>
                     <? } else { ?>
                         <h4 class="c-tab__price active">+165 руб.</h4>
                     <? } ?>

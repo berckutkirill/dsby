@@ -3,9 +3,9 @@
         <div class="c-tab__main">
             <div class="c-tab__body">
                 <? if ($arParams['INCOMPL']) { ?>
-                    <h4 class="c-tab__title c-h4">Входит в стоимость</h4>
+                    <h4 class="c-tab__price active">Входит в стоимость</h4>
                 <? } else { ?>
-                    <h4 class="c-tab__title c-h4">+151 руб.</h4>
+                    <h4 class="c-tab__price active">+151 руб.</h4>
                 <? } ?>
                 <p class="c-tab__text c-p2">Два цилиндровых механизмы имеют 4 высший класс безопасности. Замки защищены от интеллектуального исилового взлома. Цилиндр работает в условиях повышенной влажности и перепадах температур.</p>
             </div>
