@@ -38,20 +38,20 @@ if (!empty($arResult["PROPERTIES"]["DESTINATION_ICON"]["VALUE"])) {
             if ($arResult["PROPERTIES"]["DESTINATION_ICON"]["VALUE_XML_ID"][$key] == "concept" || $arResult["PROPERTIES"]["DESTINATION_ICON"]["VALUE_XML_ID"][$key] == "stock")
                 continue;
             if ($i == 0) {
-                $destination = $dest;
+                $destination = "<span class='".$arResult["PROPERTIES"]["DESTINATION_ICON"]['VALUE_XML_ID'][$key]."'>".$dest;
                 $i++;
             } else {
-                $destination .= " · " . $dest;
+				$destination .= "</span> · " . "<span class='".$arResult["PROPERTIES"]["DESTINATION_ICON"]['VALUE_XML_ID'][$key]."'>". $dest;
             }
         } else {
             if ($key == 0) {
-                $destination = $dest;
+                $destination = "<span class='".$arResult["PROPERTIES"]["DESTINATION_ICON"]['VALUE_XML_ID'][$key]."'>".$dest;
             } else {
-                $destination .= ", " . $dest;
+                $destination .= "</span>, " . "<span class='".$arResult["PROPERTIES"]["DESTINATION_ICON"]['VALUE_XML_ID'][$key]."'>".$dest;
             }
         }
     }
-    $arResult["DESTINATION_ICON"] = $destination;
+    $arResult["DESTINATION_ICON"] = $destination."</span>";
 }
 $salons = GetHBlock(19, ["UF_XML_ID" => $arResult["PROPERTIES"]["CONCEPT_SALONS"]["VALUE"]]);
 foreach ($salons as $key => $salon) {

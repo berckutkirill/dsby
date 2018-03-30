@@ -20,3 +20,6 @@ span.sale_tmp_text {
 .salons.fll.carts_message:not(.hidden) + .carts_delivery {
     top: 10px;
 }
+.labels .order:after {
+    content: ' за 10-30 дней';
+}

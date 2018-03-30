@@ -4219,7 +4219,7 @@ body.open-requis:after {
 
     display: block;
 
-    padding: 8px 24px;
+    padding: 8px 14px;
 
     font-family: "PT Sans", sans-serif;
 
@@ -4741,8 +4741,15 @@ body.open-requis:after {
 
 **/
 
-.dp-setfurn__item:not(:last-child) {
+
+.dp-setfurn__item{
   margin-right: 32px;
+}
+.dp-setfurn__item:nth-child(n+4) {
+  margin-top: 55px;
+}
+.dp-setfurn__item:nth-child(3n) {
+  margin-right: 0px;
 }
 .basket_form_row {
   display: flex;

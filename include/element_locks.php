@@ -53,6 +53,7 @@
 
         <?php
         foreach ($arParams["TABS"]["VALUE_XML_ID"] as $k => $val) {
+
             $APPLICATION->IncludeComponent(
                     "bitrix:main.include", ".default", array(
                 "AREA_FILE_SHOW" => "file",

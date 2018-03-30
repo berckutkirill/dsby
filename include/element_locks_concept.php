@@ -15,12 +15,14 @@
     <ul class="c-tabs__list">
         <?php foreach ($arParams["TABS"]["VALUE_XML_ID"] as $k => $val) { ?>          
             <?
+            $in = in_array($val, $arParams["COMPLECT"]);
             $APPLICATION->IncludeComponent(
                     "bitrix:main.include", ".default", array(
                 "AREA_FILE_SHOW" => "file",
                 "DATA_TAB" => $k,
                 "AREA_FILE_SUFFIX" => "inc",
                 "EDIT_TEMPLATE" => "",
+                'INCOMPL' => $in,
                 "COMPONENT_TEMPLATE" => ".default",
                 "PATH" => "/include/properties/locks-concept/$val.php"
                     ), false

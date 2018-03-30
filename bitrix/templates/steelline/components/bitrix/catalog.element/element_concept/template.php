@@ -562,9 +562,11 @@ $sklad = $arResult["PROPERTIES"]["CONCEPT_IN_STOCK"]["VALUE"] == "yes" ? true : 
             <? if ($arResult["ID"] != 3764 && $arResult["ID"] != 3939) { ?>
                 <section class="c-concept-section">
                     <div class="c-block-locks">
-                        <h1 class="c-block-locks__title"><span>Под заказ</span> замки и доборы</h1>
+                        <h2 class="c-block-locks__title"><span>Под заказ</span> замки и доборы</h2>
                         <div class="c-block-locks__main">
-                            <? if ($arResult["PROPERTIES"]["LOCKS_FURNITURES_ON_REQUEST"]["VALUE"]) { ?>
+                            <? if ($arResult["PROPERTIES"]["LOCKS_FURNITURES_ON_REQUEST"]["VALUE"]) {
+
+                                ?>
                                 <div class="c-block-locks__tabs">
                                     <section class="c-tabs">
                                         <?
@@ -573,6 +575,7 @@ $sklad = $arResult["PROPERTIES"]["CONCEPT_IN_STOCK"]["VALUE"] == "yes" ? true : 
                                             "AREA_FILE_SHOW" => "file",
                                             "SECTION_ID" => $arResult["IBLOCK_SECTION_ID"],
                                             "AREA_FILE_SUFFIX" => "inc",
+											"COMPLECT" => $arResult["PROPERTIES"]["LOCKS_FURNITURES_ON_REQUEST_IN_COMPLECT"]['VALUE_XML_ID'],
                                             "TABS" => $arResult["PROPERTIES"]["LOCKS_FURNITURES_ON_REQUEST"],
                                             "EDIT_TEMPLATE" => "",
                                             "COMPONENT_TEMPLATE" => ".default",

@@ -471,26 +471,7 @@ foreach ($furns as $furn) {
         ), false
         );
     }
-
-    if ($arResult["PROPERTIES"]["FURNITURES_ON_REQUEST"]["VALUE"]) {
-        $APPLICATION->IncludeComponent(
-            "bitrix:main.include", ".default", array(
-            "AREA_FILE_SHOW" => "file",
-            "SECTION_ID" => $arResult["IBLOCK_SECTION_ID"],
-            "AREA_FILE_SUFFIX" => "inc",
-            "TABS" => $arResult["PROPERTIES"]["FURNITURES_ON_REQUEST"],
-            "EDIT_TEMPLATE" => "",
-            "COMPONENT_TEMPLATE" => ".default",
-            "PRICES" => $FURNS,
-            "PATH" => "/include/element_fur_100.php"
-        ), false
-        );
-    }
-    ?>
-
-
-    <?php
-    if ($arResult["IBLOCK_SECTION_ID"] == 48) {
+ if ($arResult["IBLOCK_SECTION_ID"] == 48) {
         $name = "70";
     } elseif ($arResult["IBLOCK_SECTION_ID"] == 49) {
         $name = "80";
@@ -501,6 +482,26 @@ foreach ($furns as $furn) {
     } elseif ($arResult["IBLOCK_SECTION_ID"] == 45) {
         $name = "100u";
     }
+    if ($arResult["PROPERTIES"]["FURNITURES_ON_REQUEST"]["VALUE"]) {
+        $APPLICATION->IncludeComponent(
+            "bitrix:main.include", ".default", array(
+            "AREA_FILE_SHOW" => "file",
+            "SECTION_ID" => $arResult["IBLOCK_SECTION_ID"],
+            "AREA_FILE_SUFFIX" => "inc",
+            "TABS" => $arResult["PROPERTIES"]["FURNITURES_ON_REQUEST"],
+            "EDIT_TEMPLATE" => "",
+            "SERIES" => $name,
+            "COMPONENT_TEMPLATE" => ".default",
+            "PRICES" => $FURNS,
+            "PATH" => "/include/element_fur_100.php"
+        ), false
+        );
+    }
+    ?>
+
+
+    <?php
+
 
     if (!$arResult["PROPERTIES"]["DOUBLE"]["VALUE"]) {
         $APPLICATION->IncludeComponent(
@@ -861,7 +862,7 @@ foreach ($furns as $furn) {
         })
         $(document).ready(function () {
             var date = new Date();
-            var endHour = 12;
+            var endHour = 18;
             if (date.getDay == 0 || date.getDay == 6) {
                 endHour = 10;
             }

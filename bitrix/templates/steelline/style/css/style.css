@@ -1,6 +1,7 @@
 .bx-imopenlines-config-sidebar:not(.bx-imopenlines-config-sidebar-open) {
-    display:none;
+    display: none;
 }
+
 /* compiled by scssphp v0.1.1 on Fri, 18 Nov 2016 18:29:44 +0300 (8.0022s) */
 @import url(../../style/css/likely.css);
 /* style reset */
@@ -173,13 +174,16 @@ input[type="checkbox"] {
     -o-font-smoothing: antialiased;
     font-smoothing: antialiased;
 }
+
 .c-form-order .error {
     background: none !important;
 }
+
 .c-form__bottom {
     background-color: #FEF4DE;
     border-radius: 5px;
 }
+
 form .error {
     background: #fff url(../../img/error.png) no-repeat 97% center !important;
 }
@@ -26826,15 +26830,13 @@ a.link_general {
     vertical-align: top;
 }
 
-.dp-setfurn__item:not(:last-child) {
-    margin-right: 70px;
-}
+
 
 .dp-setfurn__item:first-child .dp-setfurn__lin:first-child {
     margin-right: 25px;
 }
 
-.dp-setfurn__item-bot img{
+.dp-setfurn__item-bot img {
     max-width: 212px;
     max-height: 90px;
 }
@@ -26843,10 +26845,11 @@ a.link_general {
     margin-bottom: 25px;
 }
 
-.dp-setfurn__lin img{
+.dp-setfurn__lin img {
     width: 79px;
     height: 118px;
 }
+
 .dp-setfurn__lin {
     width: 165px;
     display: inline-block;
@@ -27015,8 +27018,6 @@ a.link_general {
     left: -30px;
 }
 
-
-
 /* 80u */
 .dp-options_80u .dp-options__manager-img {
     width: 251px;
@@ -27057,10 +27058,12 @@ a.link_general {
     page-break-inside: avoid;
     break-inside: avoid;
 }
+
 .dp-options__item-desc.price {
     padding-top: 8px;
     color: #0baf64;
 }
+
 .dp-options__item-title {
     font-size: 20px;
     font-family: 'museo900', serif;
@@ -27073,20 +27076,19 @@ a.link_general {
     font-family: 'museo500', serif;
 }
 
-
-
 .dp-options__item {
     display: inline-block;
 }
+
 .dp-options__item:not(:last-child) {
     margin-bottom: 40px;
 }
-
 
 .dp-doors-bottom-left {
     flex: 1;
     width: 0;
 }
+
 .dp-doors-bottom-right {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -27098,17 +27100,13 @@ a.link_general {
 .dp-options {
     background: url("/bitrix/templates/steelline/img/dsc-4761.jpg") no-repeat 90% 100%;
 }
-@media all and (-webkit-min-device-pixel-ratio : 1.5),
-all and (-o-min-device-pixel-ratio: 3/2),
-all and (min--moz-device-pixel-ratio: 1.5),
-all and (min-device-pixel-ratio: 1.5) {
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3/2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
     .dp-options {
         background: url("/bitrix/templates/steelline/img/dsc-4761@2x.jpg") no-repeat 88% 100%;
         background-size: 14%;
     }
 }
-
-
 
 .dp-doors-bottom {
     display: -webkit-box;
@@ -27145,14 +27143,14 @@ all and (min-device-pixel-ratio: 1.5) {
     font-family: 'museo500', serif;
     width: 330px;
 }
-.dp-options__manager-say-item{
+
+.dp-options__manager-say-item {
     position: relative;
 }
+
 .dp-options__manager-say-item:not(:last-child) {
     margin-bottom: 15px;
 }
-
-
 
 .dp-options__manager-say-item:first-child:after {
     content: '—';
@@ -27185,8 +27183,6 @@ all and (min-device-pixel-ratio: 1.5) {
 .dp-options_80 {
     padding-bottom: 81px;
 }
-
-
 
 .dp-options_100u {
     padding-bottom: 62px;
@@ -27259,6 +27255,24 @@ all and (min-device-pixel-ratio: 1.5) {
     color: #fff;
     border-bottom: 1px solid rgba(255, 255, 255, .6);
 }
+
 .dp-options__item-desc {
     width: 500px;
+}
+
+@media not all and (min-resolution: .001dpcm) {
+    @media {
+        .factoid_10 .factoid_content_header {
+            text-align: right;
+        }
+    }
+}
+
+@media screen and (min-color-index: 0)
+and(-webkit-min-device-pixel-ratio: 0) {
+    @media {
+        .factoid_10 .factoid_content_header {
+            text-align: right;
+        }
+    }
 }

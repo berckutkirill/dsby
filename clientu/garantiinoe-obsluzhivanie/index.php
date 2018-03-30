@@ -55,8 +55,7 @@ $APPLICATION->IncludeComponent("bitrix:breadcrumb", "bread", Array(), false
             </div>
         </section> <section class="p-gar__send scrollerTo">
             <form class="p-gar__form c-form js_validate" action="" method="post" name="guarantee_letter" id="guarantee_letter">
-                <div class="c-form__bottom">
-                </div>
+                
                 <div class="c-form__main">
                     <div class="c-form__head">
                         <h2 class="c-h2 c-h2--small c-form__title">Заявка на гарантийное обслуживание</h2>

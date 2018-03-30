@@ -3,8 +3,12 @@
         <div class="c-tab__main">
             <div class="c-tab__body">
                 <div class="c-tab__title c-h4">
-                    <h4 class="c-tab__price active">+467 руб.</h4>
-                    <h4 class="c-tab__price">+513 руб.</h4>
+                    <? if ($arParams['INCOMPL']) { ?>
+                        <h4 class="c-tab__title c-h4">Входит в стоимость</h4>
+                    <? } else { ?>
+                        <h4 class="c-tab__price active">+467 руб.</h4>
+                    <? } ?>
+                    <h4 class="c-tab__price">+577 руб.</h4>
                 </div>
                 
                 <p class="c-tab__text c-tab__toggle c-p2">Замок имеет две независимые системы, в которых закрытый сувальдный механизм не блокирует действия цилиндрового. Четыре ригеля и защёлка прижимают дверь&nbsp;к&nbsp;коробке, что&nbsp;предотвращает механический взлом.

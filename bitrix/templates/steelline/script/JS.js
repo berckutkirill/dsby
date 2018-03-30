@@ -1331,9 +1331,9 @@ function cart_app(door_id) {
 		if ($('.c-concept').length > 0) {return;}
 		var top = $(document).scrollTop(),
 			// stop = $('.js_row_slider').offset().top - $(window).height()-60;
-			stop = $('.cool_item_reviews').offset().top - $(window).height()-60;
+			stop = $('.cool_item_reviews').offset().top - $(window).height()-70;
 
-		top>=stop ? fix.addClass('stop').css('bottom',$('.cool_clones_container').outerHeight()+$('.cool_item_reviews').outerHeight() +240) : fix.removeClass('stop').css('bottom', '0');
+		top>=stop ? fix.addClass('stop').css('bottom',$('.cool_clones_container').outerHeight()+$('.cool_item_reviews').outerHeight() +220) : fix.removeClass('stop').css('bottom', '0');
 	})
 
 	$('.js_row_slider .sale_price').each(function() {

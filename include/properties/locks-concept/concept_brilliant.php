@@ -3,8 +3,12 @@
         <div class="c-tab__main">
             <div class="c-tab__body">
                 <div class="c-tab__title c-h4">
-                    <h4 class="c-tab__price active">+1263 руб.</h4>
-                    <h4 class="c-tab__price">+1161 руб.</h4>
+                    <? if ($arParams['INCOMPL']) { ?>
+                        <h4 class="c-tab__title c-h4">Входит в стоимость</h4>
+                    <? } else { ?>
+                        <h4 class="c-tab__price active">+1263 руб.</h4>
+                    <? } ?>
+                    <h4 class="c-tab__price">+1373 руб.</h4>
                 </div>
                 
                 <p class="c-tab__text c-tab__toggle c-p2">Корпус замка выполнен из прочного сплава, устойчив к&nbsp;износу и коррозии. Устройство объединяет в себе цилиндровый и роторный механизм, что увеличивает секретности замка и повышает взломостойкость.

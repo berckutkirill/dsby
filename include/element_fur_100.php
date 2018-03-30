@@ -33,6 +33,7 @@ $MATERIALS = ["9e4096b85691a8d93db2792aebf27040" => 13, "552c54dabe2a5e5c7b99f0f
                 "DATA_TAB" => $k,
                 "AREA_FILE_SUFFIX" => "inc",
                 "EDIT_TEMPLATE" => "",
+                "SERIES" => $arParams["SERIES"],
                 'PRICES' => $arParams["PRICES"]['LOCKS'][$MATERIALID],
                 'HAND_PRICE' => $arParams["PRICES"]['HANDS'],
                 "COMPONENT_TEMPLATE" => ".default",
