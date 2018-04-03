@@ -20210,13 +20210,13 @@ a.link_general:hover {
     color: #fff;
 }
 
-.catalog_main_header_filter_item.discount_filter.active, .catalog_main_header_filter_item.profit_filter.active, .catalog_main_header_filter_item.classic_filter.active, .catalog_main_header_filter_item.intime_filter.active {
+.catalog_main_header_filter_item.discount_filter.active, .catalog_main_header_filter_item.profit_filter.active {
     background: #d24343;
     border-color: #a32d2d;
     color: #fff;
 }
 
-.catalog_main_header_filter_item.new_filter.active, .catalog_main_header_filter_item.hit_filter.active {
+.catalog_main_header_filter_item.new_filter.active, .catalog_main_header_filter_item.hit_filter.active,  .catalog_main_header_filter_item.classic_filter.active, .catalog_main_header_filter_item.intime_filter.active {
     background: #7f52e0;
     border-color: #7141da;
     color: #fff;
