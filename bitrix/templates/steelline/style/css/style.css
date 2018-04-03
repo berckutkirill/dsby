@@ -20210,7 +20210,7 @@ a.link_general:hover {
     color: #fff;
 }
 
-.catalog_main_header_filter_item.discount_filter.active, .catalog_main_header_filter_item.profit_filter.active {
+.catalog_main_header_filter_item.discount_filter.active, .catalog_main_header_filter_item.profit_filter.active, .catalog_main_header_filter_item.classic_filter.active, .catalog_main_header_filter_item.intime_filter.active {
     background: #d24343;
     border-color: #a32d2d;
     color: #fff;
