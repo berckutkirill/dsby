@@ -1,3 +1,10 @@
+var regulars = {
+    name: /^[A-Za-zА-Яа-яЁё_-\s]+$/,
+    phone: /^(\+375){1}(\s){1}(\(){1}(\d){2}(\)){1}(\s){1}(\d){3}(\-){1}(\d){2}(\-){1}(\d){2}$/,
+    email: /^([a-zA-ZА-Яа-яЁё0-9_-]+\.)*[a-zA-ZА-Яа-яЁё0-9_-]+@[a-zA-ZА-Яа-яЁё0-9_-]+(\.[a-zA-ZА-Яа-яЁё0-9_-]+)*\.[a-zA-ZА-Яа-яЁё]{2,6}$/,
+    number: /^\d+$/
+};
+
 function yaRequest(param) {
 	if(typeof yaCounter29969184 !== 'undefined') {
 		yaCounter29969184.reachGoal(param);
@@ -1044,13 +1051,8 @@ function Validator() {
     ],
     forms = $('.' + params[0]),
     fields = forms.find('[' + params[1] + ']'),
-    animate_stopper = true,
-    regulars = {
-        name: /^[A-Za-zА-Яа-яЁё_-\s]+$/,
-        phone: /^(\+375){1}(\s){1}(\(){1}(\d){2}(\)){1}(\s){1}(\d){3}(\-){1}(\d){2}(\-){1}(\d){2}$/,
-        email: /^([a-zA-ZА-Яа-яЁё0-9_-]+\.)*[a-zA-ZА-Яа-яЁё0-9_-]+@[a-zA-ZА-Яа-яЁё0-9_-]+(\.[a-zA-ZА-Яа-яЁё0-9_-]+)*\.[a-zA-ZА-Яа-яЁё]{2,6}$/,
-        number: /^\d+$/
-    };
+    animate_stopper = true;
+
     var fieldCount = 0;
     function worker(exp, field_wrap) {
         field_wrap.removeClass(params[5]);

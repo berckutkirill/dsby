@@ -34,7 +34,7 @@
 
                 <div class="dp-options__item">
                     <p class="dp-options__item-title">
-                        Нестандарные размеры двери
+                        Нестандартные размеры двери
                     </p>
                     <p class="dp-options__item-desc text">
                         Под индивидуальный проём можно заказать
@@ -116,7 +116,7 @@
 
                         <div class="dp-options__manager-say">
                             <p class="dp-options__manager-say-item">
-                                Подробнее раскажу про опции под заказ.
+                                Подробнее расскажу про опции под заказ.
                                 Помогу определить сторону открывания
                             </p>
                         </div>

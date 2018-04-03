@@ -112,7 +112,7 @@ if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true)
                         </h2>
                         <p class="c-p1 c-p1--small">Менеджер позвонит по телефону <span id="thank-client-phone">+375 29 196 47 37.</span>
                         </p>
-                        <p class="c-p1 c-p1--small">Мы работаем с 10 до 18 в будни.</p>
+                        <p class="c-p1 c-p1--small">Мы работаем с 10 до 20 в будни.</p>
                     </div>
                     <svg class="c-thank__svg" xmlns="http://www.w3.org/2000/svg" width="133" height="164"
                          viewBox="0 0 133 164">

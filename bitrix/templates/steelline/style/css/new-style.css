@@ -12595,6 +12595,18 @@ text-align: left;
   letter-spacing: normal;
   padding: 10px 45px 0 12px;
   color: #282d31;
+  position: relative;
+}
+.one_click_order_success_message:after {
+  content:  '';
+  background: url("/bitrix/templates/steelline/svg/ok_check.svg") no-repeat;
+  width: 33px;
+  height: 44px;
+  background-size: contain;
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
 .inpbut {
   padding:0 10px;

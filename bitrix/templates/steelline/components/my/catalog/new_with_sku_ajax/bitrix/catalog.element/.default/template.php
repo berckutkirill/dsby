@@ -247,7 +247,7 @@ foreach ($furns as $furn) {
                 function oneClickOrder(id, name) {
                     var data = {};
                     data['phone'] = $(".one_click_phone_input").val();
-                    if(!data['phone']) {
+                    if(!regulars.phone.test(data['phone'])) {
                         $(".one_click_phone_input").addClass('error');
                         $(".one_click_phone_input").on('keyup', function () {
                             if($(this).hasClass('error')) {
