@@ -67,7 +67,7 @@ var doubleDoorsArr = {
     init: function () {
         this.item = 0;
         this.last = 0;
-        this.from = 0;
+        this.from = 4;
         this.DOUBLE_DOOR_PERIOD = 0;
         this.CURRENT_DOUBLE_DOOR = -1;
         this.started = false;
