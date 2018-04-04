@@ -245,6 +245,7 @@ foreach ($furns as $furn) {
                     $(".one_click_phone_input").removeClass('error');
                 }
                 function oneClickOrder(id, name) {
+					yaRequest("fast_request");
                     var data = {};
                     data['phone'] = $(".one_click_phone_input").val();
                     if(!regulars.phone.test(data['phone'])) {
